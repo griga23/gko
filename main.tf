@@ -210,7 +210,7 @@ resource "confluent_connector" "postgre-sql-cdc-source" {
   // Block for custom *sensitive* configuration properties that are labelled with "Type: password" under "Configuration Properties" section in the docs:
   // https://docs.confluent.io/cloud/current/connectors/cc-postgresql-cdc-source-debezium.html#configuration-properties
   config_sensitive = {
-    "database.password" = "Bylonas5"
+    "database.password" = "xxxxx"
   }
   // Block for custom *nonsensitive* configuration properties that are *not* labelled with "Type: password" under "Configuration Properties" section in the docs:
   // https://docs.confluent.io/cloud/current/connectors/cc-postgresql-cdc-source-debezium.html#configuration-properties
